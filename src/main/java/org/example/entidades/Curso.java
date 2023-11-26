@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 @Setter
 @AllArgsConstructor
 
-public class curso {
+public class Curso {
 
     private int id;
     private String nombre;

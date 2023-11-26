@@ -7,7 +7,7 @@ import java.util.Date;
 @Getter
 @Setter
 @AllArgsConstructor
-public class estudiante {
+public class Estudiante {
 
     private int id;
     private String nombre;

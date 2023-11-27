@@ -10,8 +10,8 @@ import lombok.AllArgsConstructor;
 
 public class Curso {
 
-    private int id;
-    private String nombre;
+    private int idCurso;
+    private String nombreCurso;
     private String descripcion;
     private int numeroCreditos;
     private String version;
@@ -19,8 +19,8 @@ public class Curso {
     @Override
     public String toString() {
         return "CURSO: " + '\n' +
-                "  ID:  " + id + '\n' +
-                "  Nombre:  " + nombre + '\'' +'\n' +
+                "  ID:  " + idCurso + '\n' +
+                "  Nombre:  " + nombreCurso + '\'' +'\n' +
                 "  Descripcion:  " + descripcion + '\'' +'\n' +
                 "  NumeroCreditos:  " + numeroCreditos + '\n' +
                 "  Version:  " + version + '\'' + '\n' ;
